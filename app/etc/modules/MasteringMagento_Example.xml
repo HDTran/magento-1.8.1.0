@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!DOCTYPE config>
+<!-- 
+    active = whether it's active
+    codePool = what folder to look in under app/code
+    depends = dependencies from Magento
+ -->
+<config>
+    <modules>
+        <MasteringMagento_Example>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends />
+        </MasteringMagento_Example>
+    </modules>
+</config>

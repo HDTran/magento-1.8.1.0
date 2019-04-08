@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE config>
+<!-- 
+/**
+    MasteringMagento = namespace
+    Example = module name
+*/
+ -->
+<config>
+    <modules>
+        <MasteringMagento_Example>
+            <version>0.0.0</version>
+        </MasteringMagento_Example>
+    </modules>
+    <global>
+        <models>
+            <example>
+                <class>MasteringMagento_Example_Model</class>
+            </example>
+        </models>
+        <blocks>
+            <example>
+                <class>MasteringMagento_Example_Block</class>
+            </example>
+        </blocks>
+        <helpers>
+            <example>
+                <class>MasteringMagento_Example_Helper</class>
+            </example>
+        </helpers>
+    </global>
+</config>
