@@ -48,5 +48,12 @@
                 </args>
             </example>
         </routers>
+        <layout>
+            <updates>
+                <example>
+                    <file>example.xml</file>
+                </example>
+            </updates>
+        </layout>
     </frontend>
 </config>
