@@ -37,6 +37,19 @@
         </helpers>
     </global>
 
+    <!-- admin -->
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <example before="Mage_Adminhtml">MasteringMagento_Example_Adminhtml</exmaple>>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
     <!-- anything beginning with frontName example will get routed here -->
     <frontend>
         <routers>
