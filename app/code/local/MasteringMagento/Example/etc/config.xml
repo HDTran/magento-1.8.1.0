@@ -43,7 +43,7 @@
             <adminhtml>
                 <args>
                     <modules>
-                        <example before="Mage_Adminhtml">MasteringMagento_Example_Adminhtml</exmaple>>
+                        <example before="Mage_Adminhtml">MasteringMagento_Example_Adminhtml</example>
                     </modules>
                 </args>
             </adminhtml>
