@@ -23,6 +23,7 @@
         <models>
             <example>
                 <class>MasteringMagento_Example_Model</class>
+                <resourceModel>example_resource</resourceModel>
             </example>
         </models>
         <blocks>
