@@ -16,7 +16,7 @@
 <config>
     <modules>
         <MasteringMagento_Example>
-            <version>0.0.1</version> <!-- TODO follow along with the video! -->
+            <version>0.0.1</version>
         </MasteringMagento_Example>
     </modules>
     <global>
@@ -55,16 +55,6 @@
                 <class>MasteringMagento_Example_Helper</class>
             </example>
         </helpers>
-        <events>
-            <controller_action_predispatch>
-                <observers>
-                    <example_observer>
-                        <class>example/observer</class>
-                        <method>controllerActionPredispatch</method>
-                    </example_observer>
-                </observers>
-            </controller_action_predispatch>
-        </events>
     </global>
     <admin>
         <routers>

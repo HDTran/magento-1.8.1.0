@@ -16,9 +16,9 @@
 <config>
     <menu>
         <example translate="title" module="example">
-            <title>Example</title>
+            <title>Events</title>
             <sort_order>1000</sort_order>
-            <action>adminhtml/example</action>
+            <action>adminhtml/event</action>
         </example>
     </menu>
 </config>
