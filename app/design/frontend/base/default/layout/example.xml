@@ -18,10 +18,7 @@
         <update handle="page_two_columns_right" />
 
         <reference name="content">
-            <!-- load as normal -->
-            <!-- <block type="core/template" template="example/welcome.phtml" /> -->
-            <!-- load as custom block, Example/Block/Welcome.php -->
-            <block type="example/welcome" />
+            <!-- You will add tags to this area as you follow along with the video -->
         </reference>
     </example_index_index>
 </layout>
